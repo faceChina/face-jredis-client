@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<redis>
+	<nodes>
+		<node name="app" passwd="xxxyyy">
+			<timeout>1000</timeout>
+			<serverList>
+				<server>121.42.9.235:6379</server>
+			</serverList>
+		</node>
+		<node name="common" passwd="xxxyyy">
+			<timeout>100</timeout>
+			<serverList>
+				<server>121.42.9.235:6380</server>
+			</serverList>
+		</node>
+		<node name="product" passwd="xxxyyy">
+			<timeout>1000</timeout>
+			<serverList>
+				<server>121.42.9.235:6380</server>
+			</serverList>
+		</node>
+	</nodes>
+</redis>
+
